@@ -1,9 +1,7 @@
 <?php
 
 namespace App\Controllers;
-
 use App\Models\NewsModel;
-
 
 class News extends BaseController
 {
@@ -19,9 +17,10 @@ class News extends BaseController
         return view('templates/header', $data)
             . view('news/index')
             . view('templates/footer');
+    	
     }
-
-    public function view($slug = null)
+	
+	public function view($slug = null)
     {
         $model = model(NewsModel::class);
 
@@ -37,4 +36,5 @@ class News extends BaseController
             . view('news/view')
             . view('templates/footer');
     }
-}
+}		
+		
