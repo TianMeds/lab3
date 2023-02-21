@@ -1,13 +1,12 @@
 <?php
 
 namespace App\Models;
-
 use CodeIgniter\Model;
 use CodeIgniter\Exceptions\PageNotFoundException;
 
 class NewsModel extends Model
 {
-    protected $table = 'cbmedallada_news';
+    protected $table = 'news';
 	
     public function getNews($slug = false)
     {
