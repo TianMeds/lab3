@@ -1,3 +1,4 @@
+
 <?php
 
 namespace App\Models;
@@ -7,7 +8,7 @@ use CodeIgniter\Model;
 class NewsModel extends Model
 {
     protected $table = 'cbmedallada_news';
-
+	
     public function getNews($slug = false)
     {
         if ($slug === false) {
@@ -16,4 +17,8 @@ class NewsModel extends Model
 
         return $this->where(['slug' => $slug])->first();
     }
+
+	
+	
+	
 }
