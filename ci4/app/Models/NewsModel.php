@@ -6,7 +6,7 @@ use CodeIgniter\Exceptions\PageNotFoundException;
 
 class NewsModel extends Model
 {
-    protected $table = 'cbmedallada_news';
+    protected $table = 'cbmedallada_MyGuests';
 	
     public function getNews($slug = false)
     {
