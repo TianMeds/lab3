@@ -227,10 +227,10 @@ if (!empty($fullname)){
     if(!empty($service)){
       if(!empty($messages)){
 
-            $servername = "localhost";
-            $username = "root";
-            $password = "";
-            $dbname = "portfolioform";
+            $servername = "192.168.150.213";
+            $username = "webprogmi211";
+            $password = "j@zzyAngle30";
+            $dbname = "webprogmi211";
     
             // Create connection
             $conn = new mysqli($servername, $username, $password, $dbname);
