@@ -32,6 +32,7 @@ $routes->set404Override();
 $routes->get('/', 'Home::index');
 
 use App\Controllers\News;
+use App\Controllers\Connect;
 use App\Controllers\Pages;
 
 $routes->match(['get', 'post'], 'news/create', [News::class, 'create']);
@@ -40,6 +41,12 @@ $routes->get('news', [News::class, 'index']);
 $routes->get('pages', [Pages::class, 'index']);
 $routes->get('(:segment)', [Pages::class, 'view']);
 
+
+$routes->match(['get', 'post'], 'pages/connect', [Connect::class, 'connect']);
+$routes->get('pages/(:segment)', [Connect::class, 'view']);
+$routes->get('pages', [connect::class, 'index']);
+$routes->get('pages', [Pages::class, 'index']);
+$routes->get('(:segment)', [Pages::class, 'view']);
 /*
  * --------------------------------------------------------------------
  * Additional Routing

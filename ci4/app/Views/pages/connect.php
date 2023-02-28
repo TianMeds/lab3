@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-      <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <meta http-equiv="X-UA-Compatible" content="ie=edge">
-      
-            <title>Christian Medallada</title>
-      
-      
-            <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<head>
+<meta charset="UTF-8">
+<meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+      <title>Christian Medallada</title>
+
+
+      <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
       
             <link rel="shortcut icon" href="./img/Favicon.png" type="image/x-icon" />
@@ -31,23 +32,23 @@
             <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
       
             <!-- for on scroll animations -->
-            <link rel="stylesheet" href="./styles/animate.css">
+            <link rel="stylesheet" href="/styles/animate.css">
             <script src="./scripts/wow.min.js"></script>
             <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-      
-      </head>
+</head>
 <body>
-      <div class="wrapper">
-	      
-	     <!------------ intro ------------------------------->
-	      
-	      <div class="intro">
+
+<div class="wrapper">
+
+            <div class="intro">
                   <h1 class="logo-header">
-                    <span class="logo1">Contact</span><span class="logo1">&nbsp;Me</span>
+                    <span class="logo1">Sending</span><span class="logo1">&nbsp;Message</span>
                   </h1>
             </div>
 
-             <!--------------- navbar starts here --------------->
+
+
+              <!--------------- navbar starts here --------------->
             <div class="menu-open">menu</div>
 		<div class="nav-container">
 			<div class="menu-close">close</div>
@@ -132,93 +133,20 @@
 			</nav>
 		</div>
             <!--------------- navbar ends here --------------->
-            <div class="whitespace"></div>
-
-            <!--------------- hero section starts here say hello 👋 --------------->
-            <div class="container">
-                  <div class="hero-content">
-                        <br><br>
-
-                        <div class="row">
-                              <div class="col-lg-8">
-
-                                    <h3 class="wow fadeInUp" data-wow-delay="1s">Get in touch — let’s <Br>work together. </h3><br>
-                                    <p class="wow fadeInUp" data-wow-delay="1.2s">I provide high-quality website and app development services at reasonable pricing. I am skilled and well-trained to create outstanding websites and apps that will assist you in meeting your company objectives.</p>
-
-                              </div>
-                        </div>
-                  </div>
-            </div>
-            <!--------------- hero section ends here --------------->
-
-            <!-- <div class="whitespace"></div> -->
-
-            <!--------------- form section starts here --------------->
-            <div class="container-fluid">
-                  <div class="row">
-                        <div class="col-lg-8">
-                        <form  id="contact-form" class="form"  method="POST"  data-email="medalladachris100@gmail.com"
-                              action="/lab3/ci4/public/pages/connect">
-
-                              <?= csrf_field() ?>
-
-                              <ul>
-
-                              <li class="wow fadeInUp" data-wow-delay="1.4s">
-                                    <div class="textarea">
-                                          <label for="name">Name:</label>
-                                          <input type="text" name="fullname" id="name" placeholder="Your Name" value="<?= set_value('fullname') ?>">
-                                    </div>
-                                    <small class="error"></small>
-                              </li>
-
-                              <li class="wow fadeInUp" data-wow-delay="1.6s">
-                                    <div class="textarea">
-                                          <label for="email">Email:</label>
-                                          <input type="text" name="email" id="email" placeholder="Your Email" value="<?= set_value('email') ?>">
-                                    </div>
-                                    <small class="error"></small>
-                                    
-                              </li>
-                              <li class="wow fadeInUp" data-wow-delay="1.6s">
-                                    <label for="dropdown">Services</label style="width: 100px;">
-                                          <br>
-                                          <select id="dropdown" name="services" value="<?= set_value('services') ?>">
-                                                <option value="" disabled selected hidden>What are you interested in?</option>
-                                                <option>UI/UX Web & Mobile Design</option>
-                                                <option>Web & Mobile App Development</option>
-                                                <option>Graphic Design</option>
-                                                <option>IT Solution</option>
-                                          </select>
-                                    
-                              </li>
-                              
 
 
-                              <li class="wow fadeInUp" data-wow-delay="1.6s">
-                                    <div class="textarea">
-                                          <label for="message">Message:</label>
-                                          <textarea id="messages" name="messages" placeholder="Your Message" value="<?= set_value('messages') ?>"></textarea>
-                                    </div>
-                                    <small class="error"></small>
-                              </li>
 
-                              </ul>
-
-                              <input type="submit" id="send" value="Send Message" >
-                              <p id="success"></p>
-
-                              </form>
-                        </div>
-                  </div>
+            <div class="hero">
+                  <div class="header">
+                        <h1 class="line anim-typewriter">Message Sent</h1>
+                        <h1 class="line anim-typewriter1">You can go back now</h1>
+</div>
+</div>
             </div>
 
-            <!--------------- form section ends here --------------->
 
-            <div class="whitespace"></div>
-
-            <!--------------- footer starts here --------------->
-            <div class="footer">
+<!--------------- footer starts here --------------->
+<div class="footer" data-aos="fade-up">
                   <div class="container">
                         <br><br>
 
@@ -270,17 +198,79 @@
             </div>
             <!--------------- footer ends here --------------->
 
-            <br><br><br><br>
 
-      </div>
-      
 
-      <script src="./scripts/form.js"></script>
+<script src="./scripts/form.js"></script>
       <script src="./scripts/script.js"></script>
       <script src="./scripts/message.js"></script>
       <!-- greensock cdn -->
       <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
-
+      <script>
+        AOS.init();
+      </script>
       <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+</body>
 </body>
 </html>
+
+
+<?php
+$fullname = filter_input(INPUT_POST, 'fullname');
+$email = filter_input(INPUT_POST, 'email');
+$service = filter_input(INPUT_POST, 'services');
+$messages = filter_input(INPUT_POST, 'messages');
+
+if (!empty($fullname)){
+  if (!empty($email)){
+    if(!empty($service)){
+      if(!empty($messages)){
+
+            $servername = "localhost";
+            $username = "root";
+            $password = "";
+            $dbname = "portfolioform";
+    
+            // Create connection
+            $conn = new mysqli($servername, $username, $password, $dbname);
+
+        if (mysqli_connect_error()){
+          die('Connect Error ('. mysqli_connect_errno() .') '
+          . mysqli_connect_error());
+          }
+          else{
+          $sql = "INSERT INTO messages (fullname, email, services, messages)
+          values ('$fullname','$email','$service','$messages')";
+          if ($conn->query($sql)){
+          echo "New record is inserted sucessfully";
+          }
+          else{
+          echo "Error: ". $sql ."
+          ". $conn->error;
+          }
+          $conn->close();
+          }
+      }
+      else{
+        echo "Messages should not be empty";
+        die();
+      }
+    }
+    else{
+      echo "Service should not be empty";
+      die();
+    }
+  }
+  else{
+    echo "Email should not be empty";
+    die();
+  }
+}
+else{
+  echo "Name should not be empty";
+  die();
+}
+
+
+?>
