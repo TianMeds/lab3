@@ -60,7 +60,7 @@
 			</div>
 			<nav class="menu">
 				<div class="menu__item">
-					<a href="/lab3/ci4/public/index" class="menu__item-link">Home</a>
+					<a href="/~cbmedallada/lab3/ci4/public/index" class="menu__item-link">Home</a>
 
                               <?php
                               $imageProperties = [    
@@ -76,7 +76,7 @@
 					</div>
 				</div>
 				<div class="menu__item">
-					<a href="/lab3/ci4/public/work" class="menu__item-link">Work</a>
+					<a href="/~cbmedallada/lab3/ci4/public/work" class="menu__item-link">Work</a>
 
                               <?php
                               $imageProperties = [    
@@ -95,7 +95,7 @@
 					</div>
 				</div>
 				<div class="menu__item">
-					<a href="/lab3/ci4/public/about" class="menu__item-link">About</a>
+					<a href="/~cbmedallada/lab3/ci4/public/about" class="menu__item-link">About</a>
 					
                               <?php
                               $imageProperties = [    
@@ -112,7 +112,7 @@
 					</div>
 				</div>
 				<div class="menu__item">
-					<a href="/lab3/ci4/public/contact" class="menu__item-link">Contact</a>
+					<a href="/~cbmedallada/lab3/ci4/public/contact" class="menu__item-link">Contact</a>
 
                               <?php
                               $imageProperties = [    
