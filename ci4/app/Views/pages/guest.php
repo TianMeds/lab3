@@ -124,13 +124,13 @@
                         
 
 <?php 
-$host = "localhost";
-$username = "root";
-$password = "";
-$dbname = "portfolioform";
+$servername = "192.168.150.213";
+$username = "webprogmi211";
+$password = "j@zzyAngle30";
+$dbname = "webprogmi211";
 
 // Create connection
-$conn = new mysqli($host, $username, $password, $dbname);
+$conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
