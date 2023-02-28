@@ -167,7 +167,7 @@
                               <li class="wow fadeInUp" data-wow-delay="1.4s">
                                     <div class="textarea">
                                           <label for="name">Name:</label>
-                                          <input type="text" name="fullname" id="name" placeholder="Your Name" value="<?= set_value('fullname') ?>">
+                                          <input type="text" name="fullname" id="name" placeholder="Your Name" value="<?php set_value('fullname') ?>">
                                     </div>
                                     <small class="error"></small>
                               </li>
@@ -175,7 +175,7 @@
                               <li class="wow fadeInUp" data-wow-delay="1.6s">
                                     <div class="textarea">
                                           <label for="email">Email:</label>
-                                          <input type="text" name="email" id="email" placeholder="Your Email" value="<?= set_value('email') ?>">
+                                          <input type="text" name="email" id="email" placeholder="Your Email" value="<?php set_value('email') ?>">
                                     </div>
                                     <small class="error"></small>
                                     
@@ -183,7 +183,7 @@
                               <li class="wow fadeInUp" data-wow-delay="1.6s">
                                     <label for="dropdown">Services</label style="width: 100px;">
                                           <br>
-                                          <select id="dropdown" name="services" value="<?= set_value('services') ?>">
+                                          <select id="dropdown" name="services" value="<?php set_value('services') ?>">
                                                 <option value="" disabled selected hidden>What are you interested in?</option>
                                                 <option>UI/UX Web & Mobile Design</option>
                                                 <option>Web & Mobile App Development</option>
@@ -198,7 +198,7 @@
                               <li class="wow fadeInUp" data-wow-delay="1.6s">
                                     <div class="textarea">
                                           <label for="message">Message:</label>
-                                          <textarea id="messages" name="messages" placeholder="Your Message" value="<?= set_value('messages') ?>"></textarea>
+                                          <textarea id="messages" name="messages" placeholder="Your Message" value="<?php set_value('messages') ?>"></textarea>
                                     </div>
                                     <small class="error"></small>
                               </li>
