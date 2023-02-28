@@ -6,7 +6,7 @@ use CodeIgniter\Exceptions\PageNotFoundException;
 
 class FormModel extends Model
 {
-    protected $table = 'messages';
+    protected $table = 'cbmedallada_MyGuests';
 
     protected $allowedFields = ['fullname', 'email', 'services', 'messages'];
 
