@@ -158,7 +158,7 @@
                   <div class="row">
                         <div class="col-lg-8">
                         <form  id="contact-form" class="form"  method="POST"  data-email="medalladachris100@gmail.com"
-                              action="/lab3/ci4/public/pages/connect">
+                              action="~cbmedallada/lab3/ci4/public/pages/connect">
 
                               <?= csrf_field() ?>
 
