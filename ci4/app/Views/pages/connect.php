@@ -112,7 +112,7 @@
 					</div>
 				</div>
 				<div class="menu__item">
-					<a href="contact"class="menu__item-link">Contact</a>
+					<a href="contact" class="menu__item-link">Contact</a>
 
                               <?php
                               $imageProperties = [    
